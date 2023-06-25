@@ -6,7 +6,10 @@
 
 <div class="app">
   <Header />
-
+  <a href="/akaat">
+    <div>AKAAT</div>
+  </a>
+  <div>Hello from Lee!</div>
   <main>
     <slot />
   </main>
