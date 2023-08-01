@@ -2,6 +2,7 @@
   import Counter from "./Counter.svelte";
   import welcome from "$lib/images/svelte-welcome.webp";
   import welcome_fallback from "$lib/images/svelte-welcome.png";
+  import { env } from "$env/dynamic/public";
 </script>
 
 <svelte:head>
@@ -11,6 +12,7 @@
 
 <section>
   <div>Hello I am +page!</div>
+  <div>{env.PUBLIC_RANDOM}</div>
   <h1>
     <span class="welcome">
       <picture>
