@@ -12,7 +12,7 @@
 
 <section>
   <div>Hello I am +page!</div>
-  <div>{env.PUBLIC_RANDOM}</div>
+  <div><p>This should access the environment - {env.PUBLIC_RANDOM}</p></div>
   <h1>
     <span class="welcome">
       <picture>
